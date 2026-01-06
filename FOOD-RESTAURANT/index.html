@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Restaurant Website| Fresh Food House</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img
+                src="images/logo-dark.png"
+                alt="logo"
+                class="nav__logo-dark"
+              />
+              <img
+                src="images/logo-white.png"
+                alt="logo"
+                class="nav__logo-white"
+              />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#special">SPECIAL</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#event">EVENTS</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="images/header (2).png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h2>IT IS GOOD TIME FOR THE GREAT TASTE OF FOOD</h2>
+          <h1>Beef<br /><span> WEEK</h1>
+        </div>
+      </div>
+    </header>
+
+   <section class="section__container banner__container" id="special">
+    <div class="banner__card">
+      <p>TRY IT OUT TODAY</p>
+      <h4>MOST POPULAR MEAL</h4>
+    </div>
+    <div class="banner__card">
+      <p>TRY IT OUT TODAY</p>
+      <h4>MORE FUN<br/> MORE TASTE</h4>
+    </div>
+    <div class="banner__card">
+      <p>TRY IT OUT TODAY</p>
+      <h4>FRESH & CHILLI</h4>
+    </div>
+   </section>
+
+   <section class="section__container video__container">
+  <h2 class="section__header">FROM OUR KITCHEN</h2>
+
+  <div class="video__wrapper">
+    <button class="scroll__btn left" id="scroll-left">
+      <i class="ri-arrow-left-s-line"></i>
+    </button>
+
+    <div class="video__track" id="video-track">
+      <video src="videos/food1.mp4" muted loop></video>
+      <video src="videos/food2.mp4" muted loop></video>
+      <video src="videos/food3.mp4" muted loop></video>
+      <video src="videos/food4.mp4" muted loop></video>
+      <video src="videos/Food5.mp4" muted loop></video>
+      <video src="videos/Food6.mp4" muted loop></video>
+      <video src="videos/Food7.mp4" muted loop></video>
+      <video src="videos/Food8.mp4" muted loop></video>
+      <video src="videos/Food9.mp4" muted loop></video>
+    </div>
+
+    <button class="scroll__btn right" id="scroll-right">
+      <i class="ri-arrow-right-s-line"></i>
+    </button>
+  </div>
+</section>
+
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
