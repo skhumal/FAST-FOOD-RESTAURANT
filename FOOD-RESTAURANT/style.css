@@ -211,13 +211,13 @@ nav {
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
   font-weight: 500;
-  color: var(--white);
+  color: var(--text-dark);
 }
 
 .banner__card h4 {
   font-size: 2rem;
   font-weight: 600;
-  color: var(--white);
+  color: var(--text-dark);
 }
 
 .video__container {
@@ -277,6 +277,19 @@ nav {
   right: -10px;
 }
 
+.nav-order-btn{
+  padding: 20px;
+  background-color: var(--tertiary-color);
+  color: var(--white) !important;
+  font-weight: 600;
+  border-radius: 2rem;
+  transition: 0.3s;
+}
+
+.nav-order-btn:hover{
+  background-color: var(--primary-color);
+  color: var(--white) !important;
+}
 
 @media (width > 768px) {
   
@@ -322,6 +335,7 @@ nav {
 
   .nav__links {
     color: var(--primary-color);
+    gap: 2.5rem;
   }
 
   .nav__links a:hover {
