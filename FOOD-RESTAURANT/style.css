@@ -74,7 +74,7 @@ body {
 }
 
 .header {
-  background-image: url("images/header-bg.jpg");
+  background-image: url(images/bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -135,7 +135,7 @@ nav {
 .nav__links a {
   font-weight: 600;
   white-space: nowrap;
-  color: var(--primary-color);
+  color: var(--white);
   transition: 0.3s;
 }
 
@@ -154,26 +154,39 @@ nav {
   margin-inline: auto;
 }
 
+
+.header__content p {
+  max-width: 600px;
+  margin-bottom: 2rem;
+  font-size: 25px;
+  font-weight: 400;
+  color: var(--white);
+  text-align: start;
+}
+
 .header__content h2 {
   max-width: 400px;
   margin-inline: auto;
   margin-bottom: 2rem;
   padding: 1rem 2rem;
   font-size: 1.75rem;
+  letter-spacing: 0.11rem;
   font-weight: 400;
   font-family: var(--header-font-2);
-  color: var(--primary-color);
-  border: 2px dashed var(--primary-color);
+  color: var(--white);
+  border: 2px dashed var(--white);
   text-align: center;
+  background-color: rgba(41, 11, 11, 0.6);
 }
 
 .header__content h1 {
-  font-size: 4.5rem;
-  font-weight: 500;
+  font-size: 5.5rem;
+  font-weight: 600;
   font-family: var(--header-font-1);
-  color: var(--primary-color);
+  color: var(--tertiary-color);
   line-height: 3.5rem;
   text-align: center;
+  letter-spacing: 1rem;
   text-shadow: 2px 2px var(--white);
 }
 
@@ -193,31 +206,32 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 1rem;
+  height: 320px;
 }
 
 .banner__card:nth-child(1) {
-  background-image: url(images/kasiTYPEfood.jpg);
+  background-image: url(images/bee1.jpg);
 }
 
 .banner__card:nth-child(2) {
-  background-image: url(images/popular.jpg);
+  background-image: url(images/roast2.jpg);
 }
 
 .banner__card:nth-child(3) {
-  background-image: url(images/WINGS.jpg);
+  background-image: url(images/tuscany3.jpg);
 }
 
 .banner__card p {
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
   font-weight: 500;
-  color: var(--text-dark);
+  color: var(--white);
 }
 
 .banner__card h4 {
   font-size: 2rem;
   font-weight: 600;
-  color: var(--text-dark);
+  color: var(--white);
 }
 
 .video__container {
