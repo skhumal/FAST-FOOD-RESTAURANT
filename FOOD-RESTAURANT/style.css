@@ -154,6 +154,32 @@ nav {
   margin-inline: auto;
 }
 
+.hero-btns{
+  padding-top: 1rem;
+}
+
+.hero-btns button{
+  margin-right: 10px;
+  padding: 20px;
+  font-size: 1rem;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 800;
+}
+
+.hero-btn1{
+  padding: 20px;
+  border: 2px solid #42200b;
+  background-color: #ffc135;
+  color: #42200b;
+}
+
+.hero-btn2{
+  background-color: transparent;
+  padding: 20px;
+  border: 2px solid #ffffff;
+  color: #fff;
+}
 
 .header__content p {
   max-width: 600px;
