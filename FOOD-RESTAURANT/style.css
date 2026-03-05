@@ -280,6 +280,23 @@ nav {
   margin-top: -10px;
 }
 
+.section-title h1{
+  text-align: center;
+  margin: 30px;
+  font-family:"Alfa Slab One", serif ;
+  color:#212529;
+  letter-spacing: 3px;
+  font-size: 34px;
+}
+
+.section-title p{
+  text-align: center;
+  font-family:"Alfa Slab One", serif ;
+  color:#212529;
+  letter-spacing: 3px;
+  font-size: 24px;
+}
+
 .banner__container {
   display: grid;
   gap: 1rem;
@@ -303,6 +320,10 @@ nav {
 }
 
 .banner__card:nth-child(3) {
+  background-image: url(images/tuscany3.jpg);
+}
+
+.banner__card:nth-child(4) {
   background-image: url(images/tuscany3.jpg);
 }
 
